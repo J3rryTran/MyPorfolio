@@ -1,0 +1,20 @@
+{
+  "name": "portfoliofe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J3rryTr",
+  "license": "MIT",
+  "description": "My portfolio",
+  "repository": {
+    "directory": "",
+    "type": "git",
+    "url": "https://github.com/J3rryTr/MyPorfolio/tree/main/PortfolioFE/"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
