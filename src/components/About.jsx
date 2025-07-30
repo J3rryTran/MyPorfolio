@@ -3,27 +3,17 @@ import React from 'react';
 const About = () => {
     return (
         <section className="about-section">
-            <h2>About Me</h2>
+            <h2><strong>ABOUT ME</strong></h2>
+            <div className="about-image">
+                <img src="https://i.imgur.com/1z5Z5z5.jpg" alt="Profile" />
+            </div>
             <div className="about-content">
                 <p>
-                    Experienced business consultant with over 5 years of expertise in helping
-                    companies optimize their operations and achieve sustainable growth. Known for
-                    strategic thinking, analytical problem-solving, and collaborative leadership.
+                    I am currently as a software development engineer, I have a lot of time working in data science,
+                    like data analysis and engineering. Currently, I am oriented to develop in the data science industry.
+                    I want to apply to data engineer for develop skills in building large data systems and streams.
+                    I am willing to learn and contribute to large-scale data systems in the enterprise.
                 </p>
-                <div className="highlights">
-                    <div className="highlight-item">
-                        <h3>5+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div className="highlight-item">
-                        <h3>50+</h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div className="highlight-item">
-                        <h3>20+</h3>
-                        <p>Happy Clients</p>
-                    </div>
-                </div>
             </div>
         </section>
     );
