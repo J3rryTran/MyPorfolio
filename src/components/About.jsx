@@ -4,9 +4,6 @@ const About = () => {
     return (
         <section className="about-section">
             <h2><strong>ABOUT ME</strong></h2>
-            <div className="about-image">
-                <img src="https://i.imgur.com/1z5Z5z5.jpg" alt="Profile" />
-            </div>
             <div className="about-content">
                 <p>
                     I am currently as a software development engineer, I have a lot of time working in data science,
