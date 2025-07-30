@@ -1,0 +1,17 @@
+{
+  "Homepage":{
+    "title": {
+      "Home": "Home",
+      "AboutMe": "About Me",
+      "Now": "Now",
+      "Contact": "Contact"
+    },
+    "button": {
+      "GetStarted": "Get Started",
+      "LangEN": "English",
+      "LangVN": "Vietnamient",
+      "DarkMode": "Dark mode",
+      "LightMode": "Light mode"
+    }
+  }
+}
