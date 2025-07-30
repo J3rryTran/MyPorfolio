@@ -6,13 +6,11 @@ const Education = () => {
             title: "Bachelor of Data Science",
             institution: "University of Technology and Science in Hanoi",
             period: "2020 - 2024",
-            description: "Pursuing a degree in Data Science with a focus on machine learning, data analysis, and software development."
         },
         {
             title: "High School Diploma",
             institution: "Doan Thi Diem High School",
             period: "2017 - 2020",
-            description: "Graduated with a focus on mathematics and computer science."
         },
         {
             title: "Certifications",
@@ -43,3 +41,4 @@ const Education = () => {
         </section>
     );
 }
+export default Education;
