@@ -3,11 +3,9 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Education from './components/Education';
-import Contact from './components/Contact';
-import './Application.css';
+import './App.css';
 
-function Application() {
+function App() {
     return (
         <div className="portfolio-container">
             <Header />
@@ -15,11 +13,9 @@ function Application() {
                 <About />
                 <Skills />
                 <Experience />
-                <Education />
-                <Contact />
             </main>
         </div>
     );
 }
 
-export default Application;
+export default App;
