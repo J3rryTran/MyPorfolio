@@ -29,7 +29,7 @@ const Education = () => {
         <section className="education-section">
             <h2>Education</h2>
             <div className="education-list">
-                {education.map((edu, index) => (
+                {education.split("\n").map((edu, index) => (
                     <div key={index} className="education-item">
                         <h3>{edu.title}</h3>
                         <h4>{edu.institution}</h4>
