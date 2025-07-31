@@ -1,0 +1,55 @@
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #577969;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -37px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background: #577969;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #577969;
+}
+
+.timeline-content h3 {
+    color: #333;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.timeline-content h4 {
+    color: #577969;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.period {
+    color: #999;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.timeline-content p {
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}

@@ -1,0 +1,51 @@
+.header-section {
+    background: linear-gradient(135deg, #577969 0%, #577969 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header-section h1,
+.header-section p,
+.header-section a,
+.header-section span {
+    color: white;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info span {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}

@@ -1,25 +1,16 @@
 import React from 'react';
+import './Experience.css';
 
 const Experience = () => {
     const experiences = [
         {
-            title: "Senior Business Consultant",
-            company: "ABC Consulting Group",
-            period: "2021 - Present",
-            description: "Lead strategic initiatives for Fortune 500 clients, resulting in 25% average cost reduction and improved operational efficiency."
+            title: "VAST: Mydio user data management system",
+            company: "Viettel Software (VTIT)",
+            period: "05/2025 - Present",
+            description: "Join in developing and operating the data system for the MyDio.vn audiobook platform, where users can listen and read books online." +
+                " The system is built on a microservices architecture, utilizing technologies such as Java, Spring Boot, and PostgreSQL. My role involves designing and implementing data models, optimizing database queries, and ensuring data integrity and security. I also collaborate with cross-functional teams to integrate new features and improve system performance.",
         },
-        {
-            title: "Business Analyst",
-            company: "XYZ Corporation",
-            period: "2019 - 2021",
-            description: "Conducted market research and data analysis to support executive decision-making and business development."
-        },
-        {
-            title: "Junior Consultant",
-            company: "StartUp Solutions",
-            period: "2018 - 2019",
-            description: "Supported small business clients with process improvement and growth strategy development."
-        }
+
     ];
 
     return (

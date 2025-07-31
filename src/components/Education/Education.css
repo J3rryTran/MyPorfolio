@@ -1,0 +1,21 @@
+.institution-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    gap: 8px; /* thêm khoảng cách phòng khi nội dung sát nhau */
+}
+
+.institution {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.period {
+    font-style: italic;
+    color: #888;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
