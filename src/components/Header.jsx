@@ -5,7 +5,7 @@ const Header = () => {
         <header className="header-section">
             <div className="hero-content">
                 <div className="profile-image">
-                    <img src="/api/placeholder/200/200" alt="Profile" />
+                    <img src="/public/asset/img/" alt="Profile" />
                 </div>
                 <h1 className="name">Trần Minh Trung</h1>
                 <div className="contact-info">
